@@ -1,0 +1,41 @@
+.custom-md {
+    height: 69.2118226601px !important;
+    /* height:auto !important; */
+}
+
+.w-webflow-badge {
+    display: none !important;
+}
+
+footer-link:hover {
+    opacity: 80;
+}
+
+.sub-footer-wrapper {
+  margin-top: 50px;
+}
+
+
+@media screen and (min-width: 767px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .wrapper {
+    /* display: flex !important; */
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    /* display: flex !important; */
+    gap: 15px;
+  }
+}
